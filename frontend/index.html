@@ -6,22 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
 
 <body>
-    <style>
-        nav a {
-            padding: 10px;
-        }
-        .footer{
-            bottom: 0;
-            left: 50%;
-            position: fixed;
-            text-align: center;
-        }
-        
-    </style>
-    <h1>Devere Store</h1>
+    <h1>Devera Store</h1>
     <!-- <header>
         <div >
             <span><a href="#">Hotest</a></span>
@@ -41,6 +30,9 @@
     </nav>
     <h1>Add Product</h1>
     <form action="">
+        <table>
+            <tr>
+
         <label for="name"> Product name </label><input type="text" name="productName">
 
         <label for="category">Category</label>
@@ -54,7 +46,7 @@
         </select></br></br>
 
         <label for="price"> Price </label><input type="number" placeholder="price is a number">
-        <input type="checkbox" name="check">Free ship </br></br>
+        <input class="radio" type="checkbox" name="check">Free ship </br></br>
 
         <label for="description"> Description </label><textarea placeholder="description for product" name="description"
             id="desc" cols="30" rows="5"></textarea></br></br>
@@ -62,8 +54,9 @@
         <label for="image" >Image</label><img
             src="https://th.bing.com/th/id/OIP.b84LJufExcg3D_xTcbF6DgHaE8?w=272&h=181&c=7&r=0&o=5&pid=1.7"
             alt="image demo"></br></br>
-        <input type="radio" name="country" value="china">China</br></br>
-        <input type="radio" name="country" value="Vietnam">Vietnam</br></br>
+        <input class="radio" type="radio" name="country" value="china">China</br></br>
+        <input class="radio" type="radio" name="country" value="Vietnam">Vietnam</br></br>
+        </table>
         
         <input type="submit" name="create" id="create">
     </form>
