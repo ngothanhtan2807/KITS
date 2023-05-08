@@ -1,0 +1,29 @@
+
+nav a {
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10%;
+    /* border: 1px solid #162ea7; */
+    
+}
+
+.footer{
+    bottom: 0;
+    left: 50%;
+    position: fixed;
+    text-align: center;
+}
+
+label{
+    width: 100px;
+    /* display: inline-blockf; */
+    display: inline-flex;
+    margin-left: 100px;
+    vertical-align: top;
+}
+.radio{
+    margin-left: 100px;
+}
+#create{
+    margin-left: 50%;
+}
