@@ -45,7 +45,7 @@ img{
     background-color: #8d0f0f;
     width: 100px;
     height: 100px;
-    animation: self-spin 1s infinite;
+    animation: self-spin 1s linear infinite;
 }
 @keyframes self-spin {
     0%{
